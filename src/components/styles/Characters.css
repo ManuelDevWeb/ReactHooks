@@ -1,0 +1,15 @@
+.Characters .bg-primary {
+    background-color: rgb(86, 224, 58)!important;
+}
+
+.Characters .card {
+    box-shadow: 0px 0px 10px rgb(175, 175, 175);
+}
+
+.Characters .card-body {
+    padding: 1rem 0rem!important;
+}
+
+.bgCardDark {
+    background-color: black!important;
+}

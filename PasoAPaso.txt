@@ -1,0 +1,15 @@
+1. Crear la carpeta: src/components
+
+2. Crear el componente: src/components/Header.jsx
+
+3. Crear el componente: src/components/Characters.jsx
+
+4. Instalar bootstrap: npm install bootstrap
+
+5. Crear la carpeta: src/components/styles
+
+6. Crear el archivo: src/components/styles/Characters.css
+
+7. Crear la carpeta: src/context
+
+8. Crear el archivo: src/context/ThemeContext.js
