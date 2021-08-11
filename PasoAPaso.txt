@@ -13,3 +13,9 @@
 7. Crear la carpeta: src/context
 
 8. Crear el archivo: src/context/ThemeContext.js
+
+9. Crear el componente: src/components/Search.jsx
+
+10. Crear la carpeta: src/hooks
+
+11. Crear el custom hook: src/hook/useCharacter.jsx

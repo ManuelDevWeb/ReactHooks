@@ -13,3 +13,9 @@
 .bgCardDark {
     background-color: black!important;
 }
+
+.imgFavorite {
+    border-radius: 100%;
+    max-width: 120px;
+    min-width: 50px;
+}

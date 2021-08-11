@@ -3,16 +3,22 @@ import React, { useContext } from 'react';
 import ThemeContext from "../context/ThemeContext";
 
 //Creando componente
-const Header = ({ darkMode, onClick }) => {
-    const classButton = useContext(ThemeContext);
+const Header = () => {
+    //Accediendo a los valores del useContext
+    const { darkMode, setDarkMode } = useContext(ThemeContext);
+
+    //Funcion que al dar click, ejecuta la función setDarkMode
+    const handleClick = () => {
+        //Cambiando el valor del estado darkMode
+        setDarkMode(!darkMode);
+    };
 
     return (
         <div className="Header">
-            <h1>ReactHooks</h1>
+            <h1 className={darkMode ? "text-light" : "text-dark"}>ReactHooks</h1>
             <button
                 type="button"
-                onClick={onClick}
-                className={classButton}
+                onClick={handleClick}
             >
                 {darkMode ? 'LightMode' : 'DarkMode'}
             </button>
